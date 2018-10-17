@@ -1,8 +1,10 @@
 require './lib/room'
 
 class House
+
   attr_reader :address,
               :rooms
+
   def initialize(sale_price, address)
     @sale_price = sale_price
     @address = address
@@ -51,9 +53,5 @@ class House
       end
     end
     sorted
-  end
-
-  def categories
-
   end
 end
